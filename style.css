@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-color: black;
+}
+.card{
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    cursor: pointer;
+}
+img{
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+}
+hr{
+    border: 1px solid black;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: .5;
+}
+h2{
+    text-align: justify;
+    margin: 0 10px 0 10px;
+    font-size: 1.2em;
+}
+.pricing{
+    padding: 5px 0px 5px 10px;
+    margin: 5px 0 5px 0;
+}
+.price{
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+}
+.actualprice{
+    margin-left: 10px;
+    color: gray;
+    font-size: 18px;
+}
+.discountPercent{
+    margin-left: 10px;
+    background-color: #1dd1a1;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.card:hover{
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
